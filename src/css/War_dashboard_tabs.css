@@ -1,0 +1,57 @@
+/* meta */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --tab_color: #244cc6;
+}
+.active-tabs {
+    color: #4032e5;
+}
+.content {
+    display: none;
+}
+.active-content {
+    display: block;
+}
+
+/* meta */
+
+.tabs {
+    background-color: transparent;
+    font-family: 'Teko', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.3655px;
+    line-height: 26px;
+    text-align: center;
+    color: #778fba;
+}
+.active_tabs {
+    background: #24364f;
+}
+.War_dashboard_tabs .tabs:nth-child(1) {
+    width: 187px;
+    height: 49px;
+    border: 0.791313px solid #24364f;
+    border-radius: 15.8263px 0px 0px 15.8263px;
+}
+.War_dashboard_tabs .tabs:nth-child(2) {
+    width: 194px;
+    height: 49px;
+    border: 0.791313px solid #24364f;
+    border-radius: 0px;
+}
+.War_dashboard_tabs .tabs:nth-child(3) {
+    width: 189px;
+    height: 49px;
+    border: 0.791313px solid #24364f;
+    border-radius: 0px 15.8263px 15.8263px 0px;
+}
+.tab_btn_holder {
+    margin-bottom: 60px;
+}
